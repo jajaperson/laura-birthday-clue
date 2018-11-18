@@ -1,0 +1,8 @@
+{
+  "name": "next-clue",
+  "author": "James Jensen",
+  "private": true,
+  "dependencies": {
+    "lit-html": "^0.13.0"
+  }
+}
