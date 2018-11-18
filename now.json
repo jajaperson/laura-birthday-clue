@@ -1,5 +1,5 @@
 {
   "name": "next-clue",
-  "type": "static"
-  "alias": "next-clue",
+  "type": "static",
+  "alias": "next-clue"
 }
