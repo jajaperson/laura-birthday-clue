@@ -1,13 +1,8 @@
 FROM mhart/alpine-node
 
 # Set the default working directory
-WORKDIR /usr/src
+WORKDIR /public
 
-# Install dependencies
-COPY package.json package-lock.json ./
-RUN npm install
-
-# Copy the relevant files to the working directory
 COPY . .
 
-RUN mv . /public
+RUN npm install
