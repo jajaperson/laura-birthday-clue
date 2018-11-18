@@ -9,3 +9,5 @@ RUN npm install
 
 # Copy the relevant files to the working directory
 COPY . .
+
+RUN mv . /public
