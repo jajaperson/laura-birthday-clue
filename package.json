@@ -1,6 +1,9 @@
 {
   "name": "next-clue",
   "author": "James Jensen",
+  "scripts": {
+    "start": "echo none"
+  },
   "private": true,
   "dependencies": {
     "lit-html": "^0.13.0"
